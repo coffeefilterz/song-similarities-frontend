@@ -1,5 +1,52 @@
 /* Class selectors */
 
-.page {
+.l-main {
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: sandybrown;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  width: 1200px;
+  max-width: 90%;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 2rem;
+  background-color: #e6ebe4;
+}
+
+.content {
+  display: flex;
+  width: 1200px;
+  max-width: 90%;
+  color: rgb(1, 11, 1);
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: seagreen;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  width: 1200px;
+  max-width: 90%;
+  color: #ffb9b9;
 }

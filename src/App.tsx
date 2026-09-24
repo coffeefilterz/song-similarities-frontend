@@ -1,15 +1,9 @@
-import { BrowserRouter, Routes, Route } from "react-router";
 import "@/App.css";
-import Home from "@/pages/Home.tsx";
+import { RouterProvider } from "react-router";
+import router from "@/router.tsx";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </BrowserRouter>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
